@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+.hero nav{
+    width: 100%;
+   background-color: white;
+   height: 30px;
+   padding: 7px 15px 15px 15px;
+   box-shadow: 1px 1px 7px 1px grey;
+   position: fixed;
+   z-index: 99;
+}
+
+.hero nav p a{
+    padding: 10px 14px;
+    float: left;
+    text-decoration: none;
+    margin-right: 930px;
+    color: black;
+}
+
+.hero nav p a:hover{
+    background-color: #ddd;
+}
+
+.hero nav ul{
+    list-style-type: none;
+    margin-top: 9px;
+}
+
+.hero nav ul li{
+    display: inline-block;
+}
+
+.hero nav ul li a{
+    text-decoration: none;
+    padding: 10px 14px;
+    color: black;
+}
+
+.hero nav ul li a:hover{
+    background-color: #ddd;
+}
+
+.hero .banner{
+    position: relative;
+}
+
+.hero .banner p{
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    font-size: 40px;
+    color: grey;
+}
+
+.hero .about{
+    padding: 70px 120px;
+}
+
+.hero .about .left{
+    float: left;
+    margin-right: 50px;
+}
+
+.hero .about .right .title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.hero .about .right .mid{
+    letter-spacing: 5px;
+    padding: 45px 0 20px 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.hero .about .right .up{
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.hero .about .right .up span{
+    background-color: rgba(0, 0, 0, 0.123);
+   padding: 5px 8px;
+}
+
+.hero .about .right .down{
+    color: rgba(0, 0, 0, 0.479);
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 40px;
+}
+
+.hero .line{
+    width: 1100px;
+    height: 0.5px;
+    background-color: rgba(0, 0, 0, 0.226);
+    margin: 100px auto;
+}
+
+
+/* .hero .hr{
+    width: 1100px;
+    margin: 100px auto;
+} */
+
+.hero .menu{
+    padding: 0px 120px;
+}
+
+.hero .menu .left .title{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.hero .menu .left{
+    float: left;
+    margin-right: 50px;
+}
+
+.hero .menu .left .up{
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.hero .menu .left .down{
+    padding: 30px 0;
+}
+
+.hero .contact{
+    padding: 0 120px;
+}
+
+.hero .contact .title{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.hero .contact .mid{
+    font-size: 20px;
+    padding: 20px 0;
+    color: rgba(55, 55, 209, 0.795);
+    font-weight: 700;
+}
+
+.hero form{
+    padding: 30px 0;
+}
+
+.hero form input{
+    width: 100%;
+    height: 50px;
+    margin: 5px 0;
+    text-indent: 5px;
+    border-width: 0 0 1px 0;
+    font-size: 17px;
+}
+
+.hero form button{
+    padding: 8px 12px;
+    font-size: 15px;
+    margin: 15px 0 50px 0;
+    border: none;
+}
+
+.hero form button:hover{
+    background-color: #b4b4b4;
+}
+
+.hero footer{
+    padding: 50px 0;
+    text-align: center;
+    background-color: #ddd;
+}
+
+.hero footer p a{
+    color: black;
+}
+
+.hero footer p a:hover{
+    color: green;
+}
+
+
+@media screen and (max-width:1024px) {
+    .hero nav{
+        width: 1024px;
+       padding: 7px 0px 15px 0px;
+    }
+    
+    .hero nav p a{
+        margin-right: 60%;
+    }
+
+    .hero .about{
+        padding: 70px 80px;
+    }
+
+    .hero .about .left img{
+       width: 400px;
+       height: 610px;
+    }
+    
+    .hero .line{
+        width: 1000px;
+        margin: 70px auto;
+    }
+    
+    .hero .menu{
+        padding: 0px 80px;
+    }
+    
+    .hero .menu .left{
+        margin-right: 10px;
+        width: 400px;
+    }
+    
+    .hero .menu .right img{
+        width: 400px;
+        padding-top: 80px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .hero nav{
+        width: 768px;
+       padding: 7px 0px 15px 0px;
+    }
+    
+    .hero nav p a{
+        margin-right: 50%;
+    }
+
+    .hero .about{
+        padding: 70px 60px;
+    }
+
+    .hero .about .left img{
+       width: 300px;
+       height: 450px;
+    }
+    
+    .hero .line{
+        width: 750px;
+        margin: 50px auto;
+    }
+    
+    .hero .menu{
+        padding: 0px 60px;
+    }
+    
+    .hero .menu .left{
+        margin-right: 10px;
+        width: 300px;
+    }
+    
+    .hero .menu .right img{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .hero nav{
+        width: 425px;
+       padding: 7px 2px 15px 2px;
+    }
+    
+    .hero nav p a{
+        margin-right: 10%;
+    }
+
+    .hero .banner img{
+        width: 425px;
+    }
+
+    .hero .banner p{
+        bottom: 30px;
+        left: 20px;
+        font-size: 20px;
+    }
+
+    .hero .about{
+        padding: 40px 20px;
+    }
+
+    .hero .about .left img{
+       width: 180px;
+       height: 300px;
+    }
+
+    .hero .about .right .title{
+        font-size: 21px;
+    }
+
+    .hero .about .right .mid{
+        letter-spacing: 2px;
+        font-size: 13px;
+        padding: 15px 0 15px 0;
+    }
+
+    .hero .about .right .up{
+        line-height: 1;
+        font-size: 12px;
+    }
+
+    .hero .about .right .up span{
+       padding: 0 4px;
+    }
+
+    .hero .about .right .down{
+        font-size: 10px;
+        line-height: 1;
+        margin-top: 25px;
+    }
+    
+    .hero .line{
+        width: 400px;
+        margin: 20px auto;
+    }
+    
+    .hero .menu{
+        padding: 0px 20px;
+    }
+    
+    .hero .menu .left{
+        margin-right: 10px;
+        width: 400px;
+    }
+
+    .hero .menu .left .title{
+        font-size: 21px;
+        padding-bottom: 20px;
+    }
+
+    .hero .menu .left .up{
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    
+    .hero .menu .left .down{
+        padding: 10px 0;
+        font-size: 12px;
+    }
+    
+    .hero .menu .right img{
+        width: 180px;
+        height: 300px;
+        padding-top: 60px;
+    }
+
+    /* .hero .contact{
+        padding: 0 10px;
+    } */
+    
+    .hero .contact .title{
+        font-size: 22px;
+        padding-bottom: 30px;
+    }
+
+    .hero .contact p{
+        font-size: 15px;
+    }
+
+    .hero footer{
+        padding: 50px 0;
+        /* width: 100%; */
+    }
+}
+
